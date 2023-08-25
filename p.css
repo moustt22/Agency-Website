@@ -1,0 +1,68 @@
+html{
+    background-color: white;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    min-height: 95vh;
+}
+
+.awl{
+    flex: 1;
+}
+
+.klma{
+    color: red;
+}
+
+.tane{
+    float: left;
+}
+
+.talt{
+    float: right;
+}
+
+.sora{
+    height: 200px;
+    margin-right: 50px;
+    float: left;
+}
+
+.d{
+    width: 45%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+footer{
+    float: right;
+    color: blue;
+}
+
+@media (max-width:680px){
+    .logo{
+        width: 100px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .d{
+        width: 100%;
+        margin-bottom: 30px;
+        display: block;
+        text-align: justify;
+    }
+
+    .d img{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+}
